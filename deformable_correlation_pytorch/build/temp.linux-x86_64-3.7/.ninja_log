@@ -1,0 +1,3 @@
+# ninja log v5
+0	19255	1753511318329628081	/home/honsen/conda_envs/TFNet-main/deformable_correlation_pytorch/build/temp.linux-x86_64-3.7/dcorrelation/src/dcorrelation_cuda.o	89e755c571c7d634
+10	34486	1753511481831134969	/home/honsen/conda_envs/TFNet-main/deformable_correlation_pytorch/build/temp.linux-x86_64-3.7/dcorrelation/src/dcorrelation_kernel.o	d89f455c07fc901a

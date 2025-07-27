@@ -1,0 +1,127 @@
+未加载预训练模型 epoch: 0, bestLoss: 65535, bestEpoch: 0, werScore: 65535.00000, bestEpoch: 0
+开始训练模型
+  0%|          | 0/2486 [00:00<?, ?it/s]/home/honsen/tartan/TFNet-main/Train.py:182: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  targetOutData = [torch.tensor(yi).to(device) for yi in label]
+100%|██████████| 2486/2486 [22:29<00:00,  1.84it/s]
+epoch: 0, trainLoss: 81.85407, lr: 0.000100
+开始验证模型
+  0%|          | 0/515 [00:00<?, ?it/s]/home/honsen/tartan/TFNet-main/Train.py:263: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  targetOutData = [torch.tensor(yi).to(device) for yi in label]
+100%|██████████| 515/515 [01:39<00:00,  5.16it/s]
+validLoss: 29.77161, werScore: 77.70
+bestLoss: 29.77161, beatEpoch: 0, bestWerScore: 77.70, bestWerScoreEpoch: 0
+100%|██████████| 2486/2486 [20:13<00:00,  2.05it/s]
+epoch: 1, trainLoss: 63.64715, lr: 0.000100
+开始验证模型
+100%|██████████| 515/515 [01:52<00:00,  4.59it/s]
+validLoss: 28.50785, werScore: 75.94
+bestLoss: 28.50785, beatEpoch: 1, bestWerScore: 75.94, bestWerScoreEpoch: 1
+100%|██████████| 2486/2486 [21:34<00:00,  1.92it/s]
+  0%|          | 0/515 [00:00<?, ?it/s]epoch: 2, trainLoss: 60.28184, lr: 0.000100
+开始验证模型
+100%|██████████| 515/515 [01:46<00:00,  4.84it/s]
+validLoss: 27.43592, werScore: 72.61
+bestLoss: 27.43592, beatEpoch: 2, bestWerScore: 72.61, bestWerScoreEpoch: 2
+
+开始训练模型
+  0%|          | 0/2486 [00:00<?, ?it/s]/home/honsen/tartan/TFNet-main/Train.py:182: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  targetOutData = [torch.tensor(yi).to(device) for yi in label]
+100%|██████████| 2486/2486 [22:18<00:00,  1.86it/s]
+  0%|          | 0/515 [00:00<?, ?it/s]epoch: 3, trainLoss: 56.87415, lr: 0.000100
+开始验证模型
+/home/honsen/tartan/TFNet-main/Train.py:263: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  targetOutData = [torch.tensor(yi).to(device) for yi in label]
+100%|██████████| 515/515 [01:46<00:00,  4.82it/s]
+validLoss: 25.95465, werScore: 68.99
+bestLoss: 25.95465, beatEpoch: 3, bestWerScore: 68.99, bestWerScoreEpoch: 3
+100%|██████████| 2486/2486 [22:06<00:00,  1.87it/s]
+  0%|          | 0/515 [00:00<?, ?it/s]epoch: 4, trainLoss: 52.82695, lr: 0.000100
+开始验证模型
+100%|██████████| 515/515 [01:44<00:00,  4.95it/s]
+validLoss: 24.18861, werScore: 65.63
+bestLoss: 24.18861, beatEpoch: 4, bestWerScore: 65.63, bestWerScoreEpoch: 4
+100%|██████████| 2486/2486 [21:50<00:00,  1.90it/s]
+epoch: 5, trainLoss: 48.61109, lr: 0.000100
+开始验证模型
+100%|██████████| 515/515 [01:47<00:00,  4.80it/s]
+validLoss: 22.51400, werScore: 63.70
+bestLoss: 22.51400, beatEpoch: 5, bestWerScore: 63.70, bestWerScoreEpoch: 5
+100%|██████████| 2486/2486 [21:23<00:00,  1.94it/s]
+epoch: 6, trainLoss: 44.62682, lr: 0.000100
+开始验证模型
+100%|██████████| 515/515 [02:08<00:00,  4.00it/s]
+validLoss: 21.05957, werScore: 61.21
+bestLoss: 21.05957, beatEpoch: 6, bestWerScore: 61.21, bestWerScoreEpoch: 6
+100%|██████████| 2486/2486 [20:32<00:00,  2.02it/s]
+  0%|          | 0/515 [00:00<?, ?it/s]epoch: 7, trainLoss: 41.16975, lr: 0.000100
+开始验证模型
+100%|██████████| 515/515 [01:41<00:00,  5.05it/s]
+validLoss: 19.85106, werScore: 58.15
+bestLoss: 19.85106, beatEpoch: 7, bestWerScore: 58.15, bestWerScoreEpoch: 7
+100%|██████████| 2486/2486 [21:39<00:00,  1.91it/s]
+  0%|          | 0/515 [00:00<?, ?it/s]epoch: 8, trainLoss: 38.18770, lr: 0.000100
+开始验证模型
+100%|██████████| 515/515 [01:55<00:00,  4.47it/s]
+validLoss: 19.14210, werScore: 57.14
+bestLoss: 19.14210, beatEpoch: 8, bestWerScore: 57.14, bestWerScoreEpoch: 8
+100%|██████████| 2486/2486 [22:52<00:00,  1.81it/s]
+  0%|          | 0/515 [00:00<?, ?it/s]epoch: 9, trainLoss: 35.44698, lr: 0.000100
+开始验证模型
+100%|██████████| 515/515 [02:14<00:00,  3.84it/s]
+validLoss: 18.64346, werScore: 56.51
+bestLoss: 18.64346, beatEpoch: 9, bestWerScore: 56.51, bestWerScoreEpoch: 9
+100%|██████████| 2486/2486 [23:48<00:00,  1.74it/s]
+epoch: 10, trainLoss: 32.98015, lr: 0.000100
+开始验证模型
+100%|██████████| 515/515 [01:45<00:00,  4.90it/s]
+validLoss: 18.18386, werScore: 55.03
+bestLoss: 18.18386, beatEpoch: 10, bestWerScore: 55.03, bestWerScoreEpoch: 10
+  9%|▊         | 212/2486 [02:34<30:15,  1.25it/s]
+  
+  开始训练模型
+  0%|          | 0/2486 [00:00<?, ?it/s]/home/honsen/tartan/TFNet-main/Train.py:182: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  targetOutData = [torch.tensor(yi).to(device) for yi in label]
+100%|██████████| 2486/2486 [25:06<00:00,  1.65it/s]
+  0%|          | 0/515 [00:00<?, ?it/s]epoch: 11, trainLoss: 30.61734, lr: 0.000100
+开始验证模型
+/home/honsen/tartan/TFNet-main/Train.py:263: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  targetOutData = [torch.tensor(yi).to(device) for yi in label]
+100%|██████████| 515/515 [01:52<00:00,  4.57it/s]
+  0%|          | 0/2486 [00:00<?, ?it/s]validLoss: 17.93465, werScore: 54.46
+bestLoss: 17.93465, beatEpoch: 11, bestWerScore: 54.46, bestWerScoreEpoch: 11
+100%|██████████| 2486/2486 [26:21<00:00,  1.57it/s]
+  0%|          | 0/515 [00:00<?, ?it/s]epoch: 12, trainLoss: 28.68776, lr: 0.000100
+开始验证模型
+100%|██████████| 515/515 [02:23<00:00,  3.58it/s]
+validLoss: 17.49656, werScore: 54.35
+bestLoss: 17.49656, beatEpoch: 12, bestWerScore: 54.35, bestWerScoreEpoch: 12
+100%|██████████| 2486/2486 [25:47<00:00,  1.61it/s]
+  0%|          | 0/515 [00:00<?, ?it/s]epoch: 13, trainLoss: 26.83928, lr: 0.000100
+开始验证模型
+100%|██████████| 515/515 [01:46<00:00,  4.85it/s]
+validLoss: 17.09711, werScore: 52.52
+bestLoss: 17.09711, beatEpoch: 13, bestWerScore: 52.52, bestWerScoreEpoch: 13
+100%|██████████| 2486/2486 [32:06<00:00,  1.29it/s]
+  0%|          | 0/515 [00:00<?, ?it/s]epoch: 14, trainLoss: 25.06729, lr: 0.000100
+开始验证模型
+100%|██████████| 515/515 [01:53<00:00,  4.52it/s]
+validLoss: 16.39830, werScore: 51.25
+bestLoss: 16.39830, beatEpoch: 14, bestWerScore: 51.25, bestWerScoreEpoch: 14
+100%|██████████| 2486/2486 [31:22<00:00,  1.32it/s]
+  0%|          | 0/515 [00:00<?, ?it/s]epoch: 15, trainLoss: 23.59936, lr: 0.000100
+开始验证模型
+100%|██████████| 515/515 [01:57<00:00,  4.39it/s]
+validLoss: 16.45125, werScore: 50.01
+bestLoss: 16.45125, beatEpoch: 15, bestWerScore: 50.01, bestWerScoreEpoch: 15
+100%|██████████| 2486/2486 [32:13<00:00,  1.29it/s]
+epoch: 16, trainLoss: 22.00899, lr: 0.000100
+开始验证模型
+100%|██████████| 515/515 [02:01<00:00,  4.22it/s]
+validLoss: 16.84552, werScore: 51.48
+bestLoss: 16.84552, beatEpoch: 16, bestWerScore: 50.01, bestWerScoreEpoch: 15
+100%|██████████| 2486/2486 [37:03<00:00,  1.12it/s]
+  0%|          | 0/515 [00:00<?, ?it/s]epoch: 17, trainLoss: 20.75466, lr: 0.000100
+开始验证模型
+100%|██████████| 515/515 [02:33<00:00,  3.34it/s]
+  0%|          | 0/2486 [00:00<?, ?it/s]validLoss: 16.24333, werScore: 50.74
+bestLoss: 16.24333, beatEpoch: 17, bestWerScore: 50.01, bestWerScoreEpoch: 15
